@@ -1,0 +1,123 @@
+.contact-banner-control{
+  
+  .contact-banner-description {
+    padding-left: 8.75%;
+    h1 {
+      font-size: 2.3rem;
+      line-height: 2.4rem;
+      font-family: $RobotoLight;
+      color: $black;
+    }
+    .contact-info-container {
+      margin-top: 10%;
+      div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h3 {
+          font-family: $RobotoBold;
+          font-size: 1rem;
+          line-height: 1.1rem;
+          color: $black;
+        }
+        address{
+          color: $red;
+          font-size: 0.8rem;
+          margin-top: 0.3vw;
+        }
+      }
+    }
+  }
+  .contact-banner-image {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+
+//find us
+.find-us-control {
+  padding-left: 8.75%;
+  padding-right: 8.75%;
+  background-color: $gray-soft-soft;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .find-us-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 70px;
+    .find-us-item {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      img {
+        width: 100%;
+      }
+      h3 {
+        font-size: 14px;
+        font-family: $Roboto;
+        line-height: 1.57;
+        margin-top: 20px;
+      }
+      dt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 10px;
+        font-size: 12px;
+        font-family: $Roboto;
+        line-height: 1.67;
+        font-weight: 300;
+        a {
+          color: $black;
+        }
+      }
+    }
+  }
+  
+}
+
+
+//get know us better 
+.get-know-us-better-control {
+  padding-left: 8.75%;
+  padding-right: 8.75%;
+  background-image:
+      url('@/assets/images/contactform/bg-contact-form.png');
+  align-items: center;
+  height: 580px;
+  object-fit: contain;
+  .get-know-us-better-description {
+    h2 { 
+      color: $white;
+    }
+    dt {
+      color: $white;
+    }
+  }
+  .get-know-us-better-form {
+    .input-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .input-item {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      .input-last-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+}

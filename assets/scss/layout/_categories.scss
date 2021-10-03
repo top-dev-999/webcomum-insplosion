@@ -1,0 +1,71 @@
+.brand-entry-control {
+    .brand-entry {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        dt {
+            text-align: center;
+            font-size: 14px;
+            line-height: 22px;
+            margin-bottom: 25px;
+            color: $white;
+        }
+        .btn-group {
+            .vbutton {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+    }
+    .type1 {
+        background-image: linear-gradient(to right, rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+        url("@/assets/images/categories/brand-bg_1/img.png");
+        height: 370px;
+    }
+    .type2 {
+        background-image: linear-gradient(to right, rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+        url("@/assets/images/categories/brand-bg_2/img.png");
+        height: 370px;
+    }
+}
+
+
+.category-control {
+    padding-left: 8.75%;
+    padding-right: 8.75%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .category-items-control {
+      
+        .category-items-row {
+        
+            .inspiration-trends-item {
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+        }
+    }
+    .category-slide {
+ 
+    }    
+}
+
+.category-slide-control {
+    .carousel-control-prev {
+        width: 50px;
+        .carousel-control-prev-icon {
+            width: 50px;
+            height: 50px;
+            background-image: url('@/assets/images/basic/arrow-rectangle-dark-left.png');
+        }
+    }
+    .carousel-control-next {
+        width: 50px;
+        .carousel-control-next-icon {
+            width: 50px;
+            height: 50px;
+            background-image: url('@/assets/images/basic/arrow-rectangle-dark-right.png');
+        }
+    }
+}

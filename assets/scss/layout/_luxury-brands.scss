@@ -1,0 +1,85 @@
+.luxury-brands-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    padding-top: 60px;
+    h1 {
+        font-size: 40px;
+        line-height: 50px;
+        font-family: $RobotoLight;
+        color: $black;
+    }
+}
+.luxury-brands-control {
+    background-color: $gray-light;
+    padding-bottom: 70px;
+}
+.luxury-brands-slide-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    h3 {
+        margin-top: 10px;
+        font-family: $RobotoBold;
+        line-height: 22px;
+    }
+    h4 {
+        font-family: $RobotoLight;
+        line-height: 20px;
+    }
+    img {
+        width: 100%;
+    }
+    .carousel {
+        width: 100%;
+    }
+}
+.luxury-brands-slide {
+    .carousel-inner:hover {
+        box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 0.1);
+    }
+    .carousel-control-prev {
+        .carousel-control-prev-icon {
+            width: 50px;
+            height: 50px;
+            background-image: url('@/assets/images/basic/arrow-rectangle-trans-left.png');
+        }
+    }
+    .carousel-control-next {
+        .carousel-control-next-icon {
+            width: 50px;
+            height: 50px;
+            background-image: url('@/assets/images/basic/arrow-rectangle-trans-right.png');
+        }
+    }
+}
+.luxury-brands-static-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    flex: 1;
+    img {
+        width: 100%;
+        border-radius: 6px;
+        color: $black;
+    }
+    h3 {
+        margin-top: 10px;
+        font-family: $RobotoBold;
+        line-height: 22px;
+        color: $black;
+    }
+    
+    h4 {
+        font-family: $RobotoLight;
+        line-height: 20px;
+        color: $black;
+    }
+    
+}

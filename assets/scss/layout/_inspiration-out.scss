@@ -1,0 +1,355 @@
+.inspiration-out-control{
+    display: flex;
+    flex-direction: column;
+    background-color: $gray-light;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .inpiration-out-description {
+        display: flex;
+        flex-direction: row;
+        .back-control{
+            display: flex;
+            flex: 1;
+        }
+        .description-control {
+            padding-top: 20px;
+            display: flex;
+            flex: 4;
+            flex-direction: row;
+            .description-image {
+                display: flex;
+                width: 50%;
+                img {
+                    width: 100%;
+                }
+            }
+            .description-content {
+                display: flex;
+                width: 50%;
+                flex-direction: column;
+                justify-content: space-between;
+                padding-top: 80px;
+                padding-bottom: 40px;
+                padding-left: 30px;
+                h1 {
+                    font-size: 16px;
+                    line-height: 30px;
+                    color: $red;
+                }
+                h2 {
+                    font-family: $RobotoBold;
+                    font-size: 30px;
+                    color: $black;
+                }
+                dt {
+                    font-size: 16px;
+                    line-height: 30px;
+                    font-family: $RobotoLight;
+                }
+                .description-footer {
+                    .get-lock-price-button {
+                        margin-top: 20px;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+        .social-sharing {
+            display: flex;
+            flex: 1;
+        }
+    }
+    .view-all-control {
+        padding-top: 30px;
+    }
+}
+
+.inspiration-out-control.tablet{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;    
+    .description-control {
+        display: flex;
+        flex-direction: row;
+        .description-image {
+            display: flex;
+            width: 50%;
+            img {
+                width: 100%;
+            }
+        }
+        .description-content {
+            display: flex;
+            width: 50%;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-top: 80px;
+            padding-bottom: 40px;
+            padding-left: 30px;
+            h1 {
+                font-size: 16px;
+                line-height: 30px;
+                color: $red;
+            }
+            h2 {
+                font-family: $RobotoBold;
+                font-size: 30px;
+                color: $black;
+            }
+            dt {
+                font-size: 16px;
+                line-height: 30px;
+                font-family: $RobotoLight;
+            }
+            .description-footer {
+                .get-lock-price-button {
+                    margin-top: 20px;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+    .download-button-group {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between  ;
+        gap: 20px;
+        .download-button-control {
+            display: flex;
+            flex: 1;
+        }
+    }
+    .get-lock-price-button {
+        margin-top: 20px;
+    }
+    .call-us {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .call-us-link {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            p {
+                color: $black;
+            }
+        }
+    }
+}
+
+.inspiration-out-control.mobile {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-direction: column;
+    .description-image {
+        display: flex;
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+    .description-content {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 80px;
+        padding-bottom: 40px;
+        padding-left: 30px;
+        h1 {
+            font-size: 16px;
+            line-height: 30px;
+            color: $red;
+        }
+        h2 {
+            font-family: $RobotoBold;
+            font-size: 30px;
+            color: $black;
+        }
+        dt {
+            font-size: 16px;
+            line-height: 30px;
+            font-family: $RobotoLight;
+        }
+        .description-footer {
+            .get-lock-price-button {
+                margin-top: 20px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .download-button-group {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between  ;
+        .download-button-control {
+            display: flex;
+            flex: 1;
+            margin-bottom: 20px;
+        }
+    }
+    .call-us {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content:    center;
+        align-items: center;
+        .call-us-link {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            p {
+                color: $black;
+            }
+        }
+    }
+    
+}
+
+.color-palette-control {
+    .color-palette-header {
+        p {
+            font-size: 14px;
+            line-height: 22px;
+            font-family: $RobotoBold;
+        }
+        margin-bottom: 10px;
+    }
+    .color-palette-content {
+        display: flex;
+        flex-direction: row;
+        .color-item {
+            cursor: pointer;
+            margin-right: 20px;
+            .color-bar {
+                margin-bottom: 10px;
+            }
+            .color-text {
+                font-size: 14px;
+                line-height: 22px;
+            }
+        }
+    }
+}
+
+
+.description-footer {
+    display: flex;
+    flex-direction: column;
+    .download-button-group {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        .download-button-control {
+            flex: 1;
+            a {
+                width: 100%;
+
+            }
+        }
+    }
+    .call-us {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        p {
+            color: $black;
+            cursor: pointer;
+        }
+        p:hover {
+            color: $red;
+        }
+        .call-us-link {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            p {
+                color: $black;
+            }
+            
+        }
+    }
+}
+.inspiration-out-products {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+    .inspiration-out-products-header {
+        padding-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h2 {
+            font-size: 40px;
+            line-height: 50px;
+            font-family: $RobotoLight;
+            color: $black;
+        }
+    }
+    .inspiration-out-products-slide-control {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .inspiration-out-slide {
+            width: 80%;
+            padding-top: 30px;
+            padding-bottom: 50px;
+        }
+    }
+}
+
+
+.inspiration-out-goeswell {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+    margin-top: 10px;
+    .inspiration-out-goeswell-header {
+        padding-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h2 {
+            font-size: 40px;
+            line-height: 50px;
+            font-family: $RobotoLight;
+            color: $black;
+        }
+    }
+    .inspiratoin-out-goeswell-slide-control {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .inspiration-out-slide {
+            width: 80%;
+            padding-top: 30px;
+            padding-bottom: 50px;
+        }
+    }
+}
+
+.back-control {
+    display: flex;
+    align-items: flex-start;
+    .back-link {
+        padding-left: 50%;
+    }
+}
+
+.social-sharing {
+    display: flex;
+    justify-content: center;
+}

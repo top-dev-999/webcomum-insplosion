@@ -1,0 +1,129 @@
+.ultimate-tools-control {
+    .ultimate-tools-gallery {
+        padding-left: 120px;
+        padding-right: 120px;
+        padding-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        // opacity: 0.7;    
+        background: linear-gradient(to right, rgb(173, 136, 134), rgb(152, 101, 98));
+        .gallery-text-control {
+            h3 {
+                color: $white;
+            }
+            margin-bottom: 20px;
+        }
+        .gallery-control {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            .current-gallery-item {
+                img {
+                    width: 100%;
+                }
+                display: flex;
+                flex: 3;
+                align-items: center;
+                justify-content: center;
+            }
+            .previous-gallery-item {
+                .previous-gallery-bg {
+                    img {
+                        filter: blur(10px);
+                    }
+                }
+                img {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    cursor: pointer;
+                }
+                position: relative;
+                display: flex;
+                flex: 1;
+                align-items: center;
+                justify-content: center;    
+            }
+            .next-gallery-item {
+                .next-gallery-bg {
+                    img {
+                        filter: blur(10px);
+                    }
+                }
+                img {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    cursor: pointer;
+                }
+                position: relative;
+                display: flex;
+                flex: 1;
+                align-self: center;
+                justify-content: center;
+            }
+        }
+        
+    }
+    .ultimate-tools-gallery.tablet, .ultimate-tools-gallery.mobile {
+        flex: 1;
+    }
+    .ultimate-tools-description {
+        display: flex;
+        flex-direction: row;
+        background-image: linear-gradient(to right, $red -50%, $black 100%);
+
+        .ultimate-tools-description-control {
+            justify-content: center;
+            flex-direction: column;
+            padding: 30px;
+            dt {
+                font-size: 16px;
+                line-height: 30px;
+                font-family: $RobotoLight;
+                color: $white;
+            }
+            h5 {
+                color: $white;
+            }
+            .vbutton {
+                margin-top: 30px;
+            }
+        }
+
+        .ultimate-tools-description-control.tablet {
+            width: 90%;
+        }
+    }
+    .ultimate-tools-description.tablet, .ultimate-tools-description.mobile {
+        flex: 1;
+    }
+}
+
+.ultimate-tools-control.mobile, .ultimate-tools-control.tablet {
+    flex-direction: column;
+}
+
+.ultimate-slide-container {
+    width: 100%;
+    .vueperslide {
+        img {
+            width: 100%;
+        }
+    }
+    .vueperslide {
+        padding: 50px;   
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .vueperslide--active {
+        padding: 0px;
+    }
+}

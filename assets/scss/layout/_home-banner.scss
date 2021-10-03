@@ -1,0 +1,103 @@
+#about {
+  background-image:
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)),
+      url('~assets/images/main.png');
+      width: 100%;
+      height: 816px;
+      background-size: cover;
+      position: relative;
+      p {
+        font-family: $RobotoLight;
+        font-size: 60px;
+        color: $gray-soft-soft;
+        position: absolute;
+        top: 67.5%;
+        left: 17.5%;
+      }
+      .socialbar-control {
+        position: absolute;
+        left: 4.4%;
+        top: 45%;
+      }
+      
+}
+
+.home-banner {
+  background-image: 
+  radial-gradient(circle at 51% 50%, rgba(0, 0, 0, 0), $black50 61%), linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 4%, rgba(0, 0, 0, 0) 33%),
+  url('@/assets/images/main/main.png');
+  width: 100%;
+  height: 910px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  .home-banner-menu {
+    width: 100%;
+  }
+  .home-banner-middle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    .social-bar-control {
+      width: 8.75%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .home-banner-control {
+      width: 83%;
+      align-items: center;
+      padding-left: 5%;
+      p {
+        font-family: $RobotoLight;
+        font-size: 60px;
+        color: $white;
+      }
+      b {
+        font-family: $RobotoBold;
+        font-size: 20px;
+        color: $red;
+      }
+    }
+    .easy-navigator-control {
+      width: 8.75%;
+    }
+    .watch-video-control {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 24px;
+      .watch-video-icon {
+        width: 50px;
+        height: 50px;
+        border: solid 1px $red;
+        background-color: rgba(182, 0, 0, 0.15);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+      }
+      p {
+        color: $white;
+        font-family: $RobotoLight;
+        font-size: 14px;
+        margin-left: 15px;
+      }
+    }
+  }
+  .home-banner-scroll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    p {
+      font-size: 14px;
+      line-height: 22px;
+      color: $white;
+    }
+    padding-bottom: 40px;
+  }
+}

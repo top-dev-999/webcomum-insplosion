@@ -1,0 +1,94 @@
+.insplosion-brands-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    h2 {
+        font-size: 40px;
+        line-height: 50px;
+        font-family: $RobotoLight;
+        color: $black;
+    }
+}
+.insplosion-brands-slide-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 6px;
+    .insplosion-brand-slide {
+        border-radius: 6px;
+        .carousel-item {
+            background-color: $black;
+            border-radius: 6px;
+            img {
+                mask-image:radial-gradient(circle at 50% 49%, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 50%), linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+            }
+        }
+        .carousel-control-prev {
+            .carousel-control-prev-icon {
+                width: 50px;
+                height: 50px;
+                background-image: url('@/assets/images/basic/arrow-rectangle-trans-left.png');
+            }
+        }
+        .carousel-control-next {
+            .carousel-control-next-icon {
+                width: 50px;
+                height: 50px;
+                background-image: url('@/assets/images/basic/arrow-rectangle-trans-right.png');
+            }
+        }
+    }
+    h3 {
+        margin-top: 10px;
+        font-family: $RobotoBold;
+        line-height: 22px;
+    }
+    h4 {
+        font-family: $RobotoLight;
+        line-height: 20px;
+    }
+    
+}
+
+.insplosion-brands-static-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    .insplosion-brand-image {
+        background-color: $black;
+        border-radius: 6px;
+        position: relative;
+        .main-image {
+            width: 100%;
+            border-radius: 6px;
+            mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 63%, rgba(0, 0, 0, 0.8));;
+        }
+        .logo-image {
+            width: 80%;
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translate(-50%, 0%);
+            mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 63%, rgba(0, 0, 0, 0.5));;
+
+        }
+    }
+    
+    h3 {
+        margin-top: 10px;
+        font-family: $RobotoBold;
+        line-height: 22px;
+        color: $black;
+    }
+    h4 {
+        font-family: $RobotoLight;
+        line-height: 20px;
+        color: $black;
+    }
+}

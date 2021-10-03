@@ -1,0 +1,131 @@
+/*======NEWS======*/
+.news-item-image-wrapper {
+  position: relative;
+}
+
+.news-item-image img {
+  width: 100%;
+}
+
+.news-item-link {
+  display: block;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.news-item-content {
+  padding: 30px 10px 20px;
+}
+
+.news-item-title {
+  font-weight: bold;
+  @include fluid-type(320px,1920px,14px,16px);
+  color: #000;
+}
+
+.news-item-category {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.news-item-description {
+  margin-top: 10px;
+  @include fluid-type(320px,1920px,12px,14px);
+  color: #5f5f5f;
+}
+
+.news-item-date {
+  margin-top: 20px;
+  @include fluid-type(320px,1920px,12px,12px);
+  color: #5f5f5f;
+  text-align: right;
+}
+/* /NEWS ITEM */
+
+/* NEWS LIST */
+.news-list-column:not(:first-child) {
+  margin-top: 20px;
+}
+/* /NEWS LIST */
+
+
+/* NEWS DETAIL */
+.news-detail-slider-item {
+  img {
+    width: 100%;
+  }
+}
+
+.news-detail-information {
+  position: relative;
+  margin-top: 20px;
+}
+
+.news-detail-information-category {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.news-detail-information-title {
+  font-weight: bold;
+  @include fluid-type(320px,1920px,20px,28px);
+  color: #000;
+}
+
+.news-detail-information-text {
+  margin-top: 15px;
+}
+
+.news-detail-information-date {
+  margin-top: 40px;
+  @include fluid-type(320px,1920px,12px,14px);
+  color: #5f5f5f;
+  text-align: right;
+}
+/* /NEWS DETAIL */
+
+@media (min-width: 576px) {
+  /* NEWS LIST */
+  .news-list-column {
+    &:not(:first-child) {
+      margin-top: 0;
+    }
+
+    &:nth-child(n+3) {
+      margin-top: 20px;
+    }
+  }
+  /* /NEWS LIST */
+}
+
+@media (min-width: 768px) {
+  /* NEWS LIST */
+  .news-list-column {
+    &:nth-child(n+3) {
+      margin-top: 0;
+    }
+
+    &:nth-child(n+4) {
+      margin-top: 30px;
+    }
+  }
+  /* /NEWS LIST */
+}
+
+
+
+@media (min-width: 992px) {
+  /* NEWS DETAIL */
+  .news-detail-information-category {
+    margin-bottom: 15px;
+  }
+
+  .news-detail-information-text {
+    margin-top: 30px;
+  }
+  /* /NEWS DETAIL */
+}

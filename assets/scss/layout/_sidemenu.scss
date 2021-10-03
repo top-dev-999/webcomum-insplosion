@@ -1,0 +1,78 @@
+#sidemenu-control {
+    .scrollactive-item.hover.last-scroll-item {
+        border-bottom: 1px solid $gray-soft-soft;
+    }
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+    .scrollactive-item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        .dash{
+            width: 10px;
+            height: 1px;
+            background-color: $gray;
+            margin-left: 10px;
+        }
+        p:hover {
+            visibility: visible;
+        } 
+        p {
+            font-family: $RobotoBold;
+            font-size: 12px;
+            line-height: 20px;
+            color: $black;
+            visibility: hidden;
+        }
+        
+    }
+    .scrollactive-item.hover {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border-top: 1px solid $gray-soft-soft;
+        p {
+            visibility: visible;
+        }
+        
+    }
+    .scrollactive-item.is-active {
+        p {
+            font-family: $RobotoBold;
+            font-size: 12px;
+            line-height: 20px;
+            color: $black;
+            visibility: visible;
+        }
+        .dash {
+            width: 20px;
+            margin-left: 10px;
+        }
+    }
+    
+}
+#sidemenu-control.light {
+    .scrollactive-item {
+        p {
+            color: $white;
+        }
+        .dash {
+            background-color: $white;
+        }
+    }
+    .scrollactive-item.hover {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border-top: 1px solid $gray-soft-soft;
+        p {
+            visibility: visible;
+        }
+    }
+    .scrollactive-item.hover.last-scroll-item {
+        border-bottom: 1px solid $gray-soft-soft;
+    }
+}

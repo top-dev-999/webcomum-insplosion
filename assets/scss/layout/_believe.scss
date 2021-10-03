@@ -1,0 +1,83 @@
+.believe-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 17.5%;
+    padding-right: 17.5%;
+    background-color: $white;
+    h2 {
+        font-family: $RobotoLight;
+        font-size: 40px;
+        line-height: 50px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .believe-tabs {
+        width: 100%;
+        ul li {
+            list-style-type: none;
+            font-size: 14px;
+            font-family: $RobotoLight;
+            color: $black;
+            margin-right: 50px;
+            cursor: pointer;
+        }
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: baseline;
+            .selected {
+                font-family: $RobotoBold;
+                color: $red;
+            }
+        }
+    }
+    .believe-item.tablet, .believe-item.mobile {
+        flex-direction: column;
+        .image-first {
+            
+        }
+        .description-first {
+            
+        }
+    }
+    .believe-item {
+        
+        margin-top: 37.5px;
+        margin-bottom: 37.5px;
+        .believe-item-image { 
+            img {
+                object-fit: contain;
+                width: 100%;
+            }
+        }
+        .image-first {
+        }
+        .description-first {
+        }
+        
+        .believe-item-description {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            
+            h3 {
+                font-size: 25px;
+                font-family: $RobotoBold;
+                color: $black;
+            }
+            dt {
+                font-size: 16px;
+                font-family: $Roboto;
+                color: $black;
+                margin-top: 10px;
+            }
+        }
+        .believe-item-description.tablet, .believe-item-description.mobile {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,90 @@
+/*======NEWSLETTER======*/
+.newsletter-section {
+  background-color: #ccc;
+}
+
+.newsletter-section-title {
+  font-weight: 500;
+  @include fluid-type(320px,1920px,16px,18px);
+  color: #000;
+}
+
+.newsletter-form {
+  margin-top: 20px;
+}
+
+.newsletter-form-wrapper {
+  max-width: 600px;
+}
+
+.newsletter-input-wrapper {
+  label {
+    display: block;
+  }
+
+  input {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #fff;
+    border: 1px solid #767676;
+  }
+}
+
+.newsletter-checkbox-wrapper {
+  margin-top: 15px;
+
+  input {
+    @include appearence(none);
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 1px solid #767676;
+    border-radius: 0;
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%,-50%);
+      -moz-transform:    translate(-50%,-50%);
+      -ms-transform:     translate(-50%,-50%);
+      -o-transform:      translate(-50%,-50%);
+      transform:         translate(-50%,-50%);
+      width: 67%;
+      height: 67%;
+      background-color: #767676;
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    &:checked:after {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  label {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+  }
+
+  p {
+    position: absolute;
+    top: 2px;
+    left: 30px;
+    width: calc(100% - 30px)
+  }
+}
+
+.newsletter-submit-btn {
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: #333;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+}

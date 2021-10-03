@@ -1,0 +1,130 @@
+.search-professional-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $gray-light;
+    padding-top: 70px;
+    padding-left: 5%;
+    padding-right: 5%;
+    h1 {
+        font-size: 14px;
+        color: $red;
+        line-height: 22px;
+    }
+    h2 {
+        font-family: $RobotoLight;
+        font-size: 40px;
+        line-height: 50px;
+        color: $black;
+    }
+    dt {
+        margin-top: 10px;
+        font-family: $RobotoLight;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .search-control {
+        width: 100%;
+    }
+    .selection-control {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        .selectors {
+            select {
+                border-radius: 22px;
+            }
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+}
+
+.search-with-icon {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: $gray-soft;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+    input {
+        border: none;
+        outline: none;
+        background-color: $gray-soft;
+        width: 100%;
+    }
+    img {
+        cursor: pointer;
+    }
+}
+
+.professional-result-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    img {
+        width: 100%;
+    }
+    h3 {
+        font-size: 14px;
+        line-height: 22px;
+        color: $black;
+        margin-top: 20px;
+    }
+    h4 {
+        font-size: 12px;
+        line-height: 20px;
+        color: $black;
+    }
+    dt {
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+}
+
+.professional-banner-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    flex-direction: column;
+    padding-bottom: 15%;
+    background-image: 
+        linear-gradient(to bottom, rgba(0,0,0,0.65),  rgba(0,0,0,0.65)),
+        url('@/assets/images/findprofessional/banner/rectangle.png');
+    h3 {
+        font-family: $RobotoBold;
+        font-size: 20px;
+        color: $white;
+    }
+    dt {
+        font-size: 16px;
+        color: $white;
+        margin-bottom: 25px;
+        margin-top: 20px;
+    }
+}
+.professional-results-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    .professional-results-row {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        margin-bottom: 30px;
+        .professional-result-item {
+            
+        }
+    }
+}

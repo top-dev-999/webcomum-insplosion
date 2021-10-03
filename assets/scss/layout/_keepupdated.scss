@@ -1,0 +1,77 @@
+.keep-updated-control {
+    padding-left: 8.75%;
+    background-color: $gray-light;
+    .keep-updated-header {
+        padding-left: 10%;
+        padding-right: 18.75%;
+        padding-top: 60px;
+        padding-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h2 {
+            font-family: $RobotoLight;
+            color: $black;
+            font-size: 40px;
+            line-height: 50px;
+        }
+    }
+}
+.keep-updated-lists {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    overflow-x: scroll;
+}
+.keep-updated-item {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;   
+    justify-content: flex-end;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.08) 11%, rgba(0, 0, 0, 0.86)),
+      url('@/assets/images/keepupdated/img.png');
+
+    padding: 30px 30px 40px 38px;
+    border-radius: 6px;
+    height: 650px;  
+    h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: $white;
+        font-size: 20px;
+        line-height: 30px;
+        font-family: $RobotoBold;
+    }
+    h4 {
+        color: $white;
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .readmore {
+        font-size: 14px;
+        line-height: 22px;
+        color: $white;
+        padding-bottom: 10px;
+        border-bottom: 1px solid $white;
+    }
+    img {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+}
+.keepupdated-slide {
+    .vueperslide {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

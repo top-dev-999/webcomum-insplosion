@@ -1,0 +1,50 @@
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/bootstrap";
+@import "./node_modules/bootstrap/scss/bootstrap-grid";
+
+
+
+
+//base
+@import "base/fonts";
+@import "base/variables";
+@import "base/global";
+@import "base/buttons";
+
+//layout
+@import "layout/nav";
+@import "layout/home-banner";
+@import "layout/contact";
+@import "layout/footer";
+@import "layout/discover-inspiration";
+@import "layout/get_inspired";
+@import "layout/furniture";
+@import "layout/basic";
+@import "layout/believe";
+@import "layout/wedeliver";
+@import "layout/inspiration-list";
+@import "layout/blog";
+@import "layout/inspiration";
+@import "layout/keepupdated";
+@import "layout/ultimate-tools";
+@import "layout/insplosion-collections";
+@import "layout/luxury-brands";
+@import "layout/insplosion-brands";
+@import "layout/footer-image-tile";
+@import "layout/create-insplosion-account";
+@import "layout/collection";
+@import "layout/maintenance";
+@import "layout/page404";
+@import "layout/trends.scss";
+@import "layout/ebooks-catalogues";
+@import "layout/categories";
+@import "layout/find-professional";
+@import "layout/trends-out";
+@import "layout/faq";
+@import "layout/inspiration-out";
+@import "layout/blog-out";
+@import "layout/search";
+@import "layout/sidemenu";
+//customer
+//@import "layout/dashboard";

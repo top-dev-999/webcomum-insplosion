@@ -1,0 +1,105 @@
+.footer {
+  padding-left: 8.75%;
+  padding-right: 8.75%;
+  display: flex;
+  flex-direction: row;
+  background-color: $dark;
+}
+
+.footer.tablet, .footer.mobile {
+  flex-direction: column;
+}
+
+.footer-left {
+  flex: 1;
+  font-family: $Roboto;
+  font-size: 14px;
+  color: $white;
+  padding-left: 20px;
+  padding-right: 20px;
+  h5 {
+    font-family: $RobotoBold;
+    font-size: 16px;
+    color: $white;
+  }
+  .our-world {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    a {
+      margin-top: 10px;
+      line-height: 22px;
+      color: $white;   
+    }
+    a:hover {
+      text-decoration: none;
+    }
+  }
+  .customer-care {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    a {
+      margin-top: 10px;
+      line-height: 22px;
+      color: $white;   
+    }
+    a:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.footer-right-bottom {
+  
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  .footer-right-copyright {
+    font-family: $Roboto;
+    font-size: 11px;
+    color: $white;
+  }
+  .footer-right-follow {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    h5 {
+      font-family: $RobotoBold;
+      font-size: 16px;
+      color: $white;
+      line-height: 30px;
+    }
+  }
+}
+
+
+
+.footer-right-top {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  .footer-right-form-control {
+    margin-top: 10px;
+    .form-term-checkbox-label {
+      color: $white;
+      font-size: 12px;
+      font-family: $Roboto;
+    }
+  }
+  h5 {
+    font-family: $RobotoBold;
+    font-size: 16px;
+    color: $white;
+  }
+  .form-required-msg {
+    font-size: 12px;
+    color: $white; 
+  } 
+}
+
+.footer {
+  background-color: $dark;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}

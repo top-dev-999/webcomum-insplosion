@@ -1,0 +1,205 @@
+.socailbar-control {
+    position: fixed;
+    top: 50%;
+    left: 60px;
+}
+.find-style-control {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+}
+.scrolldown-control {
+    position: fixed;
+    bottom: 0px;
+    cursor: pointer;
+}
+.inspiration-page {
+    background-color: $gray-light;
+    .inspiration-left {
+        margin-top: 70px;
+    }
+    .inspiration-right {
+        margin-top: 70px;
+    }
+}
+
+.inspiration-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 45px;
+    padding-bottom: 60px;
+    h1 {
+        color: $black;
+        font-size: 50px;
+        line-height: 1.2;
+        font-family: $Roboto;
+    }
+}
+.inspiration-list-item-control {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    img {
+        width: 100%;
+        border-radius: 6px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+        aspect-ratio: 0.83;
+    }
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    .content-control {
+        padding: 10px;
+        h2 {
+            font-size: 16px;
+            line-height: 30px;
+            color: $black;
+            font-family: $RobotoBold;
+    
+        }
+    
+        h3 {
+            font-size: 12px;
+            line-height: 20px;
+            color: $black;
+            font-family: $RobotoLight;
+        }
+    }
+    
+   
+}
+.carousel-item.active, .carousel-item-next, .carousel-item-prev {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+/*-------Redesign panel ----------------*/
+.redesign-panel {
+    border: 1px solid $gray ;
+    border-radius: 6px;
+    padding: 30px;
+    text-align: center;
+    div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    margin-bottom: 10px;
+}
+
+.scrolldown-control{
+    cursor: pointer;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 230px;
+    background-image: linear-gradient(to bottom, rgba(249, 250, 250, 0), rgba(241, 242, 242, 0.95) 62%);
+}
+
+
+/***********INSPIRATION TRENDS***************/
+.inspiration-trends-control {
+    padding-left: 8.75%;
+    padding-right:8.75%;
+    padding-bottom: 30px;
+    .inspiration-trends-header {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .inspiration-trends-header.mobile {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.inspiration-trends-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $white;
+    img {
+        width: 100%;
+    }
+    h3 {
+        margin-top: 40px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    h4{
+        margin-bottom: 20px;
+    }
+}
+
+
+///////////////////////Inspiration with tags /////////////////////////
+.inspiration-with-tag-control {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    height: 800px;
+    .inspiration-with-tag-description {
+        flex: 1;
+        background-color: $black;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        flex-direction: column;
+        padding-left: 5%;
+        padding-right: 5%;
+        h2 {
+            font-size: 40px;
+            line-height: 50px;
+            color: $white;
+        }
+        .button-container.tablet, .button-container.mobile {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .inspiration-with-tag-description.tablet, .inspiration-with-tag-description.mobile {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .inspiration-with-tag-image {
+        display: flex;
+        position: relative;
+        flex: 2;
+        img {
+            width: 100%;
+        }
+        
+    }
+    
+}
+
+
+
+.inspiration-trends-lists {
+    display: flex;
+    flex-direction: column;
+    .inspiration-trends-row {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+}

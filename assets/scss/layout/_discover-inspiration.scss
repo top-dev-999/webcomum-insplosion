@@ -1,0 +1,84 @@
+.discover-inspiration {
+    padding-top: 116px;
+    padding-bottom: 116px;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(111deg, $gray-soft-soft 21%, #ffffff 77%);
+
+    .leftside-control.tablet, .leftside-control.mobile {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .leftside-control {
+        flex: 6;
+        padding-left: 17%;
+
+        .description-control {
+            overflow-wrap: break-word;
+            .header-hint {
+                color: $red;
+                font-family: $Roboto;
+                font-size: 14px;
+            }
+            .header {
+                font-size: 40px;
+                font-family: $RobotoLight;
+                color: $black;
+            }
+            .description {
+                font-size: 16px;
+                font-family: $RobotoLight;
+                margin-top: 20px;
+            }
+        }
+        .about-item.tablet, .about-item.mobile {
+            flex: 1;
+        }
+        .about-control.mobile {
+            flex-direction: column;
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+        .about-control {
+            margin-top: 70px;
+            display: flex;
+            flex-direction: row;
+            flex: 6;
+            gap: 20px;
+            .about-item.mobile {
+                height: 170px;
+            }
+            .about-item {
+                border-radius: 6px;
+                border-width: 1px;
+                border-style: solid;
+                border-image-source: linear-gradient(146deg, $black 56%, rgba(0, 0, 0, 0) 82%);
+                border-image-slice: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                .header-text {
+                    font-size: 25px;
+                    font-family: $RobotoBold;
+                    color: $black;
+                }
+                .body-description {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .image-container {
+        flex: 4;
+        display: flex;
+        padding-left: 5%;
+        img {
+            width: 100%;
+        }
+    }
+}

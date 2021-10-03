@@ -1,0 +1,41 @@
+.maintenance {
+    .maintenance-description {
+        padding-left: 8%;
+        padding-right: 4%;
+        h1 {
+            font-size: 4.5rem;
+            font-family: $RobotoBold;
+            color: $black;
+        }
+        p {
+            font-size: 3vw;
+            font-family: $RobotoLight;
+        }
+        dt {
+            font-size: 1rem;
+            line-height: 1.9;
+            margin-top: 40px;
+            margin-bottom: 25px;
+        }
+        .maintenance-contact {
+            .contact-item {
+                h4 {
+                    font-size: 1rem;
+                    font-family: $RobotoBold;
+                    line-height: 1.5;
+                }
+                a {
+                    margin-top: 10px;
+                    font-size: 0.9rem;
+                    line-height: 1.9;
+                    color: $red;
+                }
+            }
+        }
+    }
+    .maintenance-image {
+        img {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,119 @@
+.app-navbar {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $black;
+  padding-left: 8.75%;
+  padding-right: 8.75%;
+  flex-direction: row-reverse;
+  div {
+    a, p {
+      font-family: $Roboto;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      color: $white;
+    }
+    a:hover {
+      color: $red;
+    }
+  }
+
+  .navlist {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    div {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding-left: 9px;
+      padding-right: 9px;
+      
+    }
+    .shop-bg {
+      background-color: $red25;
+    }
+  }
+}
+
+.app-navbar.mobile {
+  justify-content: flex-end;
+}
+.app-menu {
+  padding-left: 8.75%;
+  padding-right: 8.75%;
+  
+}
+.app-menu.big{
+  height: 94px;
+}
+.app-menu.thin{
+  height: 60px;
+}
+.app-menu.dark {
+  background-color: $gray-light;
+  ul {
+    li {
+      a {
+        color: $black;
+      }
+    }
+  }
+}
+.app-menu.white{
+  background-color: $white;
+  ul {
+    li {
+      a {
+        color: $black;
+      }
+    }
+  }
+}
+.app-menu.light {
+  ul {
+    li {
+      a {
+        color: $white;
+      }
+    }
+  }
+}
+.app-menu.fixedmenu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.search-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid $gray-soft-soft;
+  background-color: $white15;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    img {
+      width: 24px;
+      height: 24px;
+    }
+}
+.search-button.dark {
+  border: 1px solid $gray;
+}
+
+
+.nuxt-link-exact-active {
+  color: $red!important;
+}
+.navitem{
+  a:hover {
+    color: $red!important;
+  }
+}

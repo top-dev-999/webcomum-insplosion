@@ -1,0 +1,366 @@
+.ebooks-catalogues-banner {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-image: url('@/assets/images/ebooks-catalogues/background.png');
+    height: 640px;
+    background-size: cover;
+    background-position: center;
+    .ebooks-catalogues-content {
+   
+        h2 {
+            color: $white;
+        }
+    }
+}
+
+.latest-inspirational-tools-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+
+.latest-inspirational-tools-control {
+    display: flex;
+    flex-direction: column;
+    background-color: $gray-light;
+    .latest-inspirational-tools-content {
+        display: flex;
+        flex-direction: row;
+        padding-left: 20px;
+        padding-right: 20px;
+        align-items: center;
+        justify-content: center;
+        .inspiration-tool-item-control {
+            padding-left: 5px;
+            padding-right: 5px;
+            flex: 1;
+        }
+    }
+}
+
+.inspiration-tool-item {
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    .inspiration-tool-item-image {
+        img {
+            width: 100%;
+        }
+    }
+    .inspiration-tool-item-title {
+        a {
+            h3 {
+                font-size: 14px;
+                line-height: 22px;
+                text-align: center;
+                color: $black;
+            }
+        }
+        
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
+    .inspiration-tool-item-download {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        .inspiration-tool-item-download-btn {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $gray-soft-soft;
+            padding: 20px;
+            font-size: 12px;
+        }
+        .inspiration-tool-item-checkbox {
+            font-size: 12px;
+        }
+    }
+}
+
+.all-inspiration-tools-control {
+    background-color: $gray-light;
+    padding-top: 70px;
+    .all-inspiration-tools-header {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 50px;
+        .all-inspiration-tools-selectors {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            width: 100%;
+            .empty-control {
+                flex: 1;
+            }
+            .tab-control {
+                flex: 8;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                .tab-lists {
+                    display: flex;
+                    flex-direction: row;
+                    div {
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        cursor: pointer;
+                    }
+                    div.selected {
+                        font-family: $RobotoBold;
+                    }
+                }
+                .selectors {
+                    .custom-select {
+                        border-radius: 50px;
+                    }
+                }
+            }
+            .download-control {
+                flex: 1;
+            }
+        }
+    }
+    .all-inspiration-tools-content {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        align-items: center;
+        justify-content: center;
+        .all-inspiration-tools-row 
+        {
+            display: flex;
+            flex-direction: row;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            .inspiration-tool-item-control {
+                padding-left: 5px;
+                padding-right: 5px;
+                flex: 1;
+            }
+        }
+    }
+    .view-all-control {
+        margin-top: 60px;
+    }
+}
+
+
+///ebooks and catalogue out
+.ebooks-catalogues-out-form {
+    
+    .ebooks-catalogues-image {
+        padding-top: 50px;
+        padding-bottom: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-image: linear-gradient(to right, #9b6663 0%, #775d5b 100%);
+        h4 {
+            font-size: 20px;
+            line-height: 30px;
+            color: $white;
+            font-family: $RobotoBold;
+        }
+    }
+    .ebooks-catalogues-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: linear-gradient(to right, $red -50%, #000000 100%);
+
+        h4 {
+            font-size: 20px;
+            line-height: 30px;
+            color: $white;
+            margin-bottom: 20px;
+        }
+        .price-show {
+            del {
+                color: $white;
+            }
+            a {
+                color: $red;
+                text-decoration: underline;
+                padding-left: 5px;
+            }
+        }
+        dt {
+            font-size: 16px;
+            line-height: 30px;
+            margin-bottom: 30px;
+            color: $white
+        }
+    }
+}
+
+
+
+.you-may-also-like-control {
+    display: flex;
+    flex-direction: column;
+    background-color: $gray-light;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    .you-may-also-like-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        h1 {
+            font-size: 40px;
+            line-height: 50px;
+            font-family: $RobotoLight;
+        }
+    }
+    .you-may-also-like-content {
+        display: flex;
+        flex-direction: row;
+        .inspiration-tool-item-control {
+            flex: 1;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+}
+
+//insplosions
+.insplosion-ebooks-catalogues-control {
+    background-color: $white;
+    padding-bottom: 20px;
+    .insplosion-ebooks-catalogues-header {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 60px;
+    }
+    .insplosion-ebooks-catalogues-lists {
+        padding-left: 8.75%;
+        padding-right: 8.75%;
+        margin-top: 33px;
+        display: flex;
+        flex-direction: column;
+        .small-big-container{
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            .small-six-container {
+                flex: 3;
+                .small-three-row {
+                    display: flex;
+                    flex-direction: row;
+                }
+            }
+            .big-one-container {
+                flex: 2;
+            }
+        }
+        .small-five-container {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
+.insplosion-ebooks-catalogues-slide-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    h3 {
+        margin-top: 10px;
+        font-family: $RobotoBold;
+        line-height: 22px;
+    }
+    h4 {
+        font-family: $RobotoLight;
+        line-height: 20px;
+    }
+    img {
+        height: 732px;
+    }
+}
+
+.insplosion-ebooks-catalogues-static-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    img {
+        border-radius: 6px;
+        height: 330px;
+    }
+    h3 {
+        margin-top: 10px;
+        font-family: $RobotoBold;
+        line-height: 22px;
+    }
+    h4 {
+        font-family: $RobotoLight;
+        line-height: 20px;
+    }
+}
+
+.link-card-control {
+
+    background-color: $gray-light;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    .our-shop-card {
+        height: 360px;
+        background-image: url('@/assets/images/ebooks-catalogues/out/our-shop.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+            h4 {
+                font-size: 30px;
+                color: $black;
+                margin-bottom: 40px;
+            }
+    }
+    .our-trends-card {
+        height: 360px;
+        background-image: url('@/assets/images/ebooks-catalogues/out/our-trends.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+            h4 {
+                font-size: 30px;
+                color: $black;
+                margin-bottom: 40px;
+            }
+        
+    }
+}

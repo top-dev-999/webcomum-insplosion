@@ -1,0 +1,32 @@
+.page-404-control {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: $gray-soft-soft;
+    .page-404-content {
+        
+        .social-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 17%;
+        }
+        .page-404-description {
+                h1 {
+                    font-family: $RobotoBold;
+                    font-size: 96px;
+                    color: $black;
+                }
+                p {
+                    font-family: $RobotoLight;
+                    font-size: 50px;
+                    line-height: 60px;
+                    margin-bottom: 30px;
+                }
+        }
+    }
+    .page-404-image {
+        img {
+            width: 100%;
+        }
+    }
+}

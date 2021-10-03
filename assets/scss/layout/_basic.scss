@@ -1,0 +1,525 @@
+.vbutton {
+    height: 40px;
+    padding: 10px 25px;
+    font-family: $Roboto;
+    font-size: 12px;
+    align-items: center;
+    display: inline-block;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.vbutton.red-white:hover {
+    background-color: $red;
+    color: $white;
+    border: 1px solid $red;
+}
+.vbutton.white-black:hover {
+    background-color: $white;
+    color: $black;
+    border: 1px solid $white;
+}
+.vbutton.black-white:hover {
+    background-color: $black;
+    color: $white;
+    border: 1px solid $black;
+}
+.lbutton {
+    height: 40px;
+    padding: 10px 25px;
+    font-family: $Roboto;
+    font-size: 12px;
+    align-items: center;
+    display: inline-block;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+.lbutton.btn-red:hover {
+    color: $white;
+}
+
+.lbutton.btn-white:hover {
+    color: $white;
+}
+
+.lbutton.btn-black:hover {
+    color: $black;
+}
+
+.btn-red {
+    color: $white;
+    border: 1px solid $red;
+    background-color: $red15;
+}
+
+.btn-black-fill {
+    color: $white;
+    border: 1px solid $black;
+    background-color: $black;
+}
+
+.btn-red-fill {
+    color: $white;
+    border: 1px solid $red;
+    background-color: $red;
+}
+
+.btn-black {
+    color: $black;
+    border: 1px solid $black;
+}
+
+.btn-white {
+    color: $white;
+    border: 1px solid $white;
+}
+
+.btn-white-fill {
+    color: $black;
+    background-color: $white;
+}
+
+.seperator {
+    height: 1px;
+    width: 100%;
+    background-color: $black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.seperator.gray {
+    background-color: $gray;
+}
+
+.social-gadget {
+    position: fixed;
+    top: 50%;
+    left: 50px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    border-radius: 20px;
+    background-color: $black50;
+    a {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  }
+
+.input-component {
+    span {
+        color: $white;
+        font-family: $RobotoBold;
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+.input-control {
+    border-radius: 4px;
+    border: 1px solid $gray-soft-soft;
+    background: transparent;
+}
+
+.input-control::placeholder {
+    color: $white;
+}
+
+.textarea-control {
+    border-radius: 4px;
+    border: 1px solid $gray-soft-soft;
+    background: transparent;
+}
+
+.checkbox-control {
+    font-size: 12px;
+}
+
+.tab-item {
+    display: inline;
+    font-size: 12px;
+    line-height: 45px;
+    text-align: center;
+    padding: 10px 22px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 5px;
+    font-family: $Roboto;
+}
+
+.tab-dark {
+    color: $dark;
+    border: 1px solid $dark;
+}
+
+.tab-light {
+    border: solid 1px rgba(241, 242, 242, 0.5);
+    background-color: rgba(241, 242, 242, 0.15);
+    color: $gray-soft-soft;
+}
+.tab-light.selected {
+    background-color: $white;
+    border-color: $white;
+    color: $black;
+}
+
+.tab-dark.selected {
+    background-color: $black;
+    border-color: $black;
+    color: $white;
+}
+
+.moreinfo-button {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background-color: $gray-soft-soft;
+}
+
+.get-price-button-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .get-price-button {
+        background-color: $red;
+        color: $white;
+        width: 50%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .more-info-button {
+        width: 50%;
+        height: 40px;
+        background-color: $gray-soft-soft;
+        color: $black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+}
+
+.user-info-control {
+    width: 100%;
+    
+}
+.user-info-form-control {
+    display: flex;
+    flex-direction: column;
+    .user-info-form-row {
+        display: flex;
+        flex-direction: row;
+        input {
+            margin: 10px;
+        }
+    }
+    .user-info-form-row.checkbox-button {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+        justify-content: space-between;
+        padding-right: 10px;
+    }
+}
+
+
+.create-account-control {
+    width: 100%;
+    .create-account-form-control {
+        display: flex;
+        flex-direction: column;
+        
+        .create-account-form-row.checkbox-button {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 20px;
+            justify-content: space-between;
+        }
+    }
+}
+
+.view-all {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    p {
+        font-size: 14px;
+        line-height: 22px;
+        color: $black;
+        padding-left: 10px;
+    }
+}
+
+.view-all-catalogue-control {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    a {
+        font-family: $RobotoLight;
+        font-size: 14px;
+        line-height: 22px;
+        color: $white;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    a:hover {
+        opacity: 0.7;
+    }
+}
+
+//download form
+.download-form-control {
+    
+    background-image: linear-gradient(92deg, $red -79%, #000000 100%);
+    border-radius: 6px;
+    .download-brand {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        background-image: linear-gradient(92deg, rgb(120,93,91), #745c5a);
+        img {
+            width: 100%;
+        }
+        h4 {
+            color: $white;
+            font-size: 1.5vw;
+            font-family: $RobotoBold;
+        }
+    }
+    .download-form-detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h4 {
+            color: $white;
+            font-size: 1vw;
+            line-height: 1.5vw;
+        }
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+//download form 
+
+
+//download button
+.download-btn {
+    cursor: pointer;
+    background-color: $gray-light;
+    font-size: 12px;
+    color: $black;
+    line-height: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+//download button
+
+.width100 {
+    width: 100%;
+}
+
+.back-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+        margin-left: 15px;
+    }
+}
+
+.social-share-light {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    p, a {
+        margin-bottom: 10px;
+    }
+}
+
+.page-up-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: rgba(0,0,0,0.05);
+    cursor: pointer;
+}
+
+.furniture-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid $white;
+    .furniture-indicator-content {
+        width: 100%;
+        width: 30px;
+        height: 30px;
+        background: white;
+        border-radius: 50%;
+    }
+}
+
+// ::-webkit-scrollbar {
+//     width: 0 !important;
+// }
+
+a:hover {
+    text-decoration: none;
+}
+
+.modal-backdrop {
+    background-color: rgba($color: #000, $alpha: 0.5);
+}
+
+.modal-content {
+    .modal-title {
+        h3 {
+            font-family: $RobotoLight;
+            font-size: 30px;
+            color: $black;
+        }
+        h4 {
+            font-family: $RobotoLight;
+            font-size: 12px;
+            line-height: 20px;
+            color: $black;
+        }
+    }
+    .modal-body {
+        p {
+            font-family: $Roboto;
+            font-size: 12px;
+            line-height: 20px;
+            color: $gray;
+        }
+        .input-component {
+            margin-bottom: 20px;
+            ::placeholder {
+                color: $black;
+            }
+        }
+        .custom-select {
+            margin-bottom: 20px;
+        }
+        .checkbox-control{
+            label {
+                color: $black;
+            }
+        }
+        .radio-group {
+            label {
+                color: $black;
+            }
+        }
+    }
+}
+
+.radio-group, .checkbox-control {
+    label {
+        font-family: $Roboto;
+        font-size: 12px;
+        color: $white;
+    }
+    .custom-control-label::before {
+        top: 0rem;
+    }
+    .custom-control-label::after {
+        top: 0rem;
+    }
+}
+
+.download-control {
+    .download-circle {
+        width: 50px;
+        height: 50px;
+        border: 1px solid $red;
+        background-color: $red15;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        .download-badge {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+    }
+    
+}
+
+
+.search-keyword-item {
+    color: $black;
+    background-color: rgba($color: #000000, $alpha: 0.05);
+    border: 1px solid $gray-soft-soft;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    line-height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 7px;
+    margin-right: 7px;
+    font-size: 14px;
+}
+.search-keyword-item:hover {
+    color: $white;
+    background-color: $black;
+}
+
+.share-icon-control {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid $gray-soft-soft;
+    background-color: $white50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.popover-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img {
+        width: 100%;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+  }
